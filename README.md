@@ -1,6 +1,6 @@
 This code is associated with the following manuscript. If you use any part of the source code, please cite us:
 
-"Connally, Noah, Sumaiya Nazeen, Daniel Lee, Huwenbo Shi, John Stamatoyannopoulos, Sung Chun, Chris Cotsapas, Christopher Cassa, and Shamil Sunyaev. 
+"Noah Connally, Sumaiya Nazeen, Daniel Lee, Huwenbo Shi, John Stamatoyannopoulos, Sung Chun, Chris Cotsapas, Christopher Cassa, and Shamil Sunyaev. 
 The missing link between genetic association and regulatory function. medRxiv (2021). https://www.medrxiv.org/content/10.1101/2021.06.08.21258515v2"
 
 ### Requirements
