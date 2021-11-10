@@ -35,15 +35,15 @@ The missing link between genetic association and regulatory function. medRxiv (2
 		   ```
 		   python3 find_candidate_peaks.py input.narrowPeak causativeGenes.bed step1.candidatePeak
 		   ```
-		b. Recenter and overlap per chromatin mark per tissue type:
+		b. Recenter and overlap candidate peaks per chromatin mark per tissue type:
 		   ```
 		   ./recenterNoverlap.sh step1.candidatePeak chr_sizes blacklist-hg19.bed step2.recenteredPeak
 		   ```
-		c. Find common chromatin peaks between H3K27AC, H3K4me1, and H3K4me3 peaks per tissue type
+		c. Find common peaks between H3K27AC, H3K4me1, and H3K4me3 peaks per tissue type
 		   ```
 		   ./findCommonPeaks.sh ac.recenteredPeak me1.recenteredPeak me3.recenteredPeak step3.commonPeak
 		   ```
-		d. Compute activity by distance per tissue type:
+		d. Compute activity by distance for gene-feature pairs per tissue type:
 		   ```
 		   python3 abd-compute.py step3.commonPeak reFlat.gencode.v19 output
 		   ```
