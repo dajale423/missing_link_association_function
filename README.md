@@ -14,6 +14,7 @@ The missing link between genetic association and regulatory function. medRxiv (2
 		matrixcalc 1.0-3
 		Matrix 1.2-12
 		reticulate 1.16 
+	bedtools v2.26.0
 
 	This code has been run with GCC 6.3.0.
 
