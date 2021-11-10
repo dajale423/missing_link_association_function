@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+
+'''
+author: Sumaiya Nazeen <sumaiya_nazeen@hms.harvard.edu>
+Computes the Activity-by-Distance(ABD) scores of gene-chromatin_feature pairs in a
+tissue type. The calculation of ABD scores involves steps similar to the calculation
+of ABC scores as described in the following paper except that it uses genomic distance 
+between the gene and chromatin feature instead of 3D contact frequency.
+
+Fulco, C. P., Nasser, J., Jones, T. R., Munson, G., Bergman, D. T., Subramanian, V., ... & Engreitz, J. M. (2019). 
+Activity-by-contact model of enhancer–promoter regulation from thousands of CRISPR perturbations. 
+Nature genetics, 51(12), 1664-1669.
+'''
+
 import sys
 import os
 import numpy as np

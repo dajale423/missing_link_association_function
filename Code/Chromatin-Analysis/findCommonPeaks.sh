@@ -1,3 +1,8 @@
+#!/bin/bash
+'''
+author: Sumaiya Nazeen <sumaiya_nazeen@hms.harvard.edu>
+Finds common merged peaks between different chromatin marks per tissue type.
+'''
 dnase=$1
 ac=$2
 me1=$3

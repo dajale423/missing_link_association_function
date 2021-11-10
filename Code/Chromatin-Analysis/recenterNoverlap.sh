@@ -1,3 +1,10 @@
+#!/bin/bash
+'''
+author: Sumaiya Nazeen <sumaiya_nazeen@hms.harvard.edu>
+Extends, recenters, and merges candidate peaks per chromatin mark per tissue type. 
+Peaks from blacklisted regions are removed.
+'''
+
 input=$1
 sizefile=$2
 blacklist=$3

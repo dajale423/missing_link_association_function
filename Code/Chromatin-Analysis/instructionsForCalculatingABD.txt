@@ -9,8 +9,8 @@ python3 find_candidate_peaks.py input.narrowPeak causativeGenes.bed step1.candid
 
 3. Find common chromatin peaks between DNase, H3K27AC, H3K4me1, and H3K4me3 peaks per tissue type
 
-./findCommonPeaks.sh dnase.recenteredPeak ac.recenteredPeak me1.recenteredPeak me3.recenteredPeak step3.mergedPeak
+./findCommonPeaks.sh dnase.recenteredPeak ac.recenteredPeak me1.recenteredPeak me3.recenteredPeak step3.commonPeak
 
 4. Compute activity by distance per tissue type:
 
-python3 abd-compute.py step3.mergedPeak reFlat.gencode.v19 output
+python3 abd-compute.py step3.commonPeak reFlat.gencode.v19 output

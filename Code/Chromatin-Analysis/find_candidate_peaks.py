@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+'''
+author: Sumaiya Nazeen <sumaiya_nazeen@hms.harvard.edu>
+Finds candidate narrow peaks per chromatin marks per tissue type within +/- 1 Mb of 
+the putatively causative genes.
+'''
+
 import os
 import sys
 import glob
